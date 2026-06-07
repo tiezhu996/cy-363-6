@@ -68,42 +68,52 @@ export const localKpis: KpiItem[] = [
 export const operationRecords: OperationRecord[] = [
   {
     "key": "ldescaperoom-1",
+    "id": 1,
     "name": "主题房间与难度分级",
     "owner": "运营组",
     "status": "已上线",
     "metric": "88%",
-    "priority": "高"
+    "priority": "高",
+    "deadline": "2026-06-30"
   },
   {
     "key": "ldescaperoom-2",
+    "id": 2,
     "name": "场次预约与拼团",
     "owner": "管理员",
     "status": "排期中",
     "metric": "31 单",
-    "priority": "中"
+    "priority": "中",
+    "deadline": "2026-06-15"
   },
   {
     "key": "ldescaperoom-3",
+    "id": 3,
     "name": "线索道具库存管理",
     "owner": "服务台",
     "status": "巡检中",
     "metric": "10 项",
-    "priority": "低"
+    "priority": "低",
+    "deadline": "2026-06-20"
   },
   {
     "key": "ldescaperoom-4",
+    "id": 4,
     "name": "玩家通关时长排行榜",
     "owner": "财务组",
     "status": "优化中",
     "metric": "4 级",
-    "priority": "高"
+    "priority": "高",
+    "deadline": "2026-06-05"
   },
   {
     "key": "ldescaperoom-5",
+    "id": 5,
     "name": "营收与上座率分析",
     "owner": "审核组",
     "status": "可导出",
     "metric": "28 条",
-    "priority": "中"
+    "priority": "中",
+    "deadline": "2026-06-25"
   }
 ];

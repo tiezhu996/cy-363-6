@@ -15,11 +15,14 @@ export interface KpiItem {
 
 export interface OperationRecord {
   key: string;
+  id: number;
   name: string;
   owner: string;
   status: string;
   metric: string;
   priority: string;
+  deadline: string | null;
+  updated_at?: string;
 }
 
 export interface OverviewResponse {

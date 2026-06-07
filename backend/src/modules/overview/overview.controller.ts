@@ -3,6 +3,11 @@ import { OverviewService } from "./overview.service";
 
 const service = new OverviewService();
 
-export function getOverview(_request: Request, response: Response) {
-  response.json(service.getOverview());
+export async function getOverview(_request: Request, response: Response) {
+  try {
+    const data = await service.getOverview();
+    response.json(data);
+  } catch (error) {
+    response.status(500).json({ error: "Failed to fetch overview" });
+  }
 }
